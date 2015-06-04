@@ -63,6 +63,13 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Asenine';
+  src: url("assets/ASENINE_.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 span.main-title {
   font-family: 'Dismecha';
 }
@@ -104,8 +111,9 @@ span.main-title {
   margin: 0 10px;
   text-transform: uppercase;
   color: #ffffff;
-  font-family: "Neuton";
+  font-family: "Asenine";
   text-decoration: none;
+  letter-spacing: 2px;
 }
 
 .zr {
