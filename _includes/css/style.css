@@ -58,14 +58,14 @@ body {
 
 @font-face {
   font-family: 'Dismecha';
-  src: url("assets/Dismecha.ttf") format("truetype");
+  src: url("Dismecha.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Asenine';
-  src: url("assets/ASENINE_.ttf") format("truetype");
+  src: url("ASENINE_.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -117,5 +117,5 @@ span.main-title {
 }
 
 .zr {
-  background: url(assets/images/zombierun.png)
+  background: url(images/zombierun.png)
 }
