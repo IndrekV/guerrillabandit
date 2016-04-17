@@ -58,16 +58,21 @@ body {
 
 @font-face {
   font-family: 'Dismecha';
-  src: url("Dismecha.ttf") format("truetype");
+  src: url("fonts/Dismecha.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Asenine';
-  src: url("ASENINE_.ttf") format("truetype");
+  src: url("fonts/ASENINE_.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: doubleFeature;
+  src: url('fonts/Double_feature20.ttf');
 }
 
 span.main-title {
@@ -116,6 +121,21 @@ span.main-title {
   letter-spacing: 2px;
 }
 
-.zr {
+.game-title {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 8px;
+  font-weight: normal;
+  position: absolute;
+  top: 50px;
+}
+
+.zombierun .screenshot {
   background: url(images/zombierun.png)
+}
+
+.zombierun .game-title {
+  font-family: doubleFeature;
 }
