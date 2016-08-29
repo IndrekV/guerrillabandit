@@ -139,3 +139,7 @@ span.main-title {
 .zombierun .game-title {
   font-family: doubleFeature;
 }
+
+.presidendijooks .screenshot {
+  background: url(images/presidendijooks.png)
+}
