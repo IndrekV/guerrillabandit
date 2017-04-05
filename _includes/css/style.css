@@ -143,3 +143,39 @@ span.main-title {
 .presidendijooks .screenshot {
   background: url(images/presidendijooks.png)
 }
+
+.fruityfingers .screenshot {
+  background: url(images/fruityfingers.png)
+}
+
+/* Small width */
+@media (max-width: 1002px) {
+  .container, .container .title {
+    padding: 0 1%;
+    width: 98%;
+  }
+
+  .container .title {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .game .screenshot {
+    padding: 0 1%;
+    width: 98%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .zombierun .game-title {
+    font-size: 50px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .title span.main-title {
+    font-size: 32px;
+  }
+}
