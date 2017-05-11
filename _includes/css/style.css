@@ -192,3 +192,9 @@ span.main-title {
     font-size: 32px;
   }
 }
+
+@media (max-width: 400px) {
+  .zombierun .game-title {
+      font-size: 34px;
+  }
+}
