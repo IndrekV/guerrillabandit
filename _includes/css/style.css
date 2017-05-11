@@ -161,6 +161,10 @@ span.main-title {
   background: url(images/fruityfingers.png)
 }
 
+.triggerreflex .screenshot {
+  background: url(images/triggerreflex.png)
+}
+
 /* Small width */
 @media (max-width: 1002px) {
   .container, .container .title {
