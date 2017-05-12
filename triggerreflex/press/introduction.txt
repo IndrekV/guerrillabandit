@@ -1,0 +1,12 @@
+Introduction
+=================================
+
+Guerrilla Bandit is the alias of Indrek Vändrik. Guerrilla Bandit creates simple mobile apps and games for mobile platforms and PC. Guerrilla Bandit was founded in 2014 and started out with creating a pixel zombie platformer called ZombieRun.
+
+In 2017 Guerrilla Bandit started a campaign called "1 App a month" which means that for the year of 2017 Indrek Vändrik will release a game or an app every month. The current status is
+
+January: NomLog - A baby feeding log (iOS, Android)[http://drik.eu/nomlog]
+February: Misbiit - A radio app that shows what song is playing on radio (Estonian radios only) (iOS, Android)[http://drik.eu/misbiit]
+March: Fruity Fingers - A simple fruit tapping reflex game (iOS, Android)[http://guerrillabandit.com/fruityfingers]
+April: Trigger Reflex - Western themed duelling game (iOS, Android)[http://guerrillabandit.com/triggerreflex]
+May: Text based adventure game (to be announced)
