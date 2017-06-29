@@ -88,6 +88,11 @@ body {
   src: url('fonts/Double_feature20.ttf');
 }
 
+@font-face {
+  font-family: RobotoThin;
+  src: url('fonts/Roboto-Thin.ttf');
+}
+
 span.main-title {
   font-family: 'Dismecha';
 }
@@ -163,6 +168,14 @@ span.main-title {
 
 .triggerreflex .screenshot {
   background: url(images/triggerreflex.png)
+}
+
+.colorskip .screenshot {
+  background: #36a7f6;
+}
+
+.colorskip .game-title {
+  font-family: RobotoThin;
 }
 
 /* Small width */
