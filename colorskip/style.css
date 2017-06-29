@@ -1,0 +1,281 @@
+html,body { 
+  margin: 0; 
+  padding: 0; 
+  height: 100%;
+  font-family:'Helvetica Neue';
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  background: #36a7f6;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h3 {
+  font-size: 22px;
+}
+.wrap {
+  min-height: 100%;
+  background: #36a7f6;
+}
+.header {
+  height: 100px;
+  background-color: #36a7f6;
+}
+
+.header .title {
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 300;
+  float: left;
+}
+
+.header .icon {
+  background: url(img/app_icon.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 28px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 952px;
+  height: 100%;
+}
+
+.header .content {
+  /*background-color: #292448;*/
+}
+
+.main {
+  height: 600px;
+}
+
+.main > .content {
+  height: 400px;
+}
+
+.main > .content > .textbox {
+  padding-top: 50px;  
+}
+
+
+.textbox {
+  font-weight: 100;
+  top: 180px;
+  text-align: center;
+}
+
+.textbox h3 {
+  font-size: 28px;
+  font-weight: 100;
+  padding-bottom: 40px;
+}
+
+.textbox p {
+  font-size: 20px;
+  font-weight: 100;
+  float: left;
+}
+
+.textbox p.ios {
+  float: right;
+}
+
+.stores {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+  height: 60px;
+  margin-left: 176px;
+  margin-top: 200px;
+}
+
+.stores p {
+  width: 150px;
+}
+
+.stores img {
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.stores a:hover img{
+  border: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+.phone {
+  background-image: url(img/iphone.png);
+  width: 283px;
+  height: 660px;
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 250px;
+  margin-left: 340px;
+  z-index: 1;
+}
+
+.screenshot {
+  width: 211px;
+  position: relative;
+  right: -36px;
+  top: 74px;
+  height: 372px;
+}
+
+.footer {
+  margin-top: -60px;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+  font-size: 12px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #36a7f6;
+  z-index: 3;
+}
+
+.footer .content {
+  font-weight: 100;
+  text-align: left;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+}
+
+.main-top {
+  height: 500px;
+}
+
+.main-bottom {
+  padding-bottom: 60px;
+  padding-top: 200px;
+}
+
+.main-bottom .textbox {
+  color: #fff;
+  padding-top: 50px;
+  width: 550px;
+}
+
+.main-bottom .textbox ul {
+  padding: 0;
+  margin: 0;
+}
+
+.main-bottom .textbox ul li {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.main-bottom .textbox ul li span {
+  font-weight: 200;
+}
+
+.hashtag {
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.hashtag p a {
+  text-decoration: none;
+  color: #527a8a;
+}
+
+.iphone {
+  position: static;
+  margin: 0;
+  background-image: url(img/iphone.png);
+  width: 283px;
+  height: 660px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+/* Small width */
+@media (max-width: 952px) {
+  .main, .main > .content {
+    height: 450px;
+  }
+  .main > .content > .textbox {
+    padding-top: 0;
+  }
+  .textbox, .content {
+    width: 100%!important;
+  }
+
+  .main .content .textbox {
+    top: 70px;
+    z-index: 2;
+  }
+
+  .main .content .textbox .stores {
+    text-align: center;
+  }
+
+  .main-top {
+    height: 600px;
+  }
+
+  .phone {
+    left: 50%;
+    margin-left: -141px;
+    top: 255px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .main-bottom {
+    height: 100px;
+    padding-top: 300px;
+  }
+
+  .screenshot {
+
+  }
+  .stores {
+    position: absolute;
+    z-index: 5;
+    top: 575px;
+    width: 280px;
+    left: 50%;
+    margin-left: -140px;
+  }
+  .stores p {
+    max-width: 45%;
+  }
+  .stores p img {
+    background-color: #008ff3;
+    border: 1px solid #ffffff;
+  }
+  .footer a {
+    text-align: center;
+    width: 100%;
+  }
+
+  .header .title {
+    padding-left: 15px;
+  }
+}
