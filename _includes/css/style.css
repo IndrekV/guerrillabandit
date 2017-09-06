@@ -178,6 +178,10 @@ span.main-title {
   font-family: RobotoThin;
 }
 
+.annoy .screenshot {
+  background: url(images/annoy.png)
+}
+
 /* Small width */
 @media (max-width: 1002px) {
   .container, .container .title {
