@@ -1,0 +1,243 @@
+html,body { 
+  margin: 0; 
+  padding: 0; 
+  height: 100%;
+  font-family:'Helvetica Neue';
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  background: #3ca0fe;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h3 {
+  font-size: 22px;
+}
+.wrap {
+  min-height: 100%;
+  background: #fff;
+}
+.header {
+  height: 100px;
+  background-color: #3ca0fe;
+}
+
+.header .title {
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+  font-size: 40px;
+  color: #fff;
+  font-weight: 300;
+  float: left;
+}
+
+.header .icon {
+  background: url(img/app_icon.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 28px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 952px;
+  height: 100%;
+}
+
+.main {
+  background-color: #3ca0fe;
+  position: relative;
+}
+
+.main > .content {
+  height: 400px;
+}
+
+.main > .content > .textbox {
+  padding-top: 100px;  
+}
+
+.textbox {
+  font-weight: 100;
+  top: 180px;
+  width: 400px;
+}
+
+.textbox h3 {
+  font-size: 28px;
+  font-weight: 200;
+  padding-bottom: 40px;
+}
+
+.textbox p {
+  font-size: 20px;
+  font-weight: 100;
+  float: left;
+}
+
+.textbox p.ios {
+  float: right;
+}
+
+.stores p {
+  width: 150px;
+}
+
+.stores img {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 5px;
+}
+
+.stores a:hover img{
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.phone {
+  background-image: url(img/iphone.png);
+  width: 283px;
+  height: 660px;
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 140px;
+  margin-left: 600px;
+  z-index: 1;
+}
+
+.screenshot {
+  width: 211px;
+  position: relative;
+  right: -36px;
+  top: 74px;
+  height: 372px;
+}
+
+.footer {
+  margin-top: -60px;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+  font-size: 12px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 3;
+}
+
+.footer .content {
+  font-weight: 100;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.main-top {
+  background-color: #0a5fe8;
+  height: 500px;
+}
+
+.main-bottom {
+  background-color: #fff;
+  padding-bottom: 60px;
+}
+
+.main-bottom .textbox {
+  color: #000;
+  padding-top: 50px;
+  width: 550px;
+  line-height: 25px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.main-bottom .textbox ul {
+  padding: 0;
+  margin: 0;
+}
+
+.main-bottom .textbox ul li {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.main-bottom .textbox ul li span {
+  font-weight: 200;
+}
+
+.hashtag {
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.hashtag p a {
+  text-decoration: none;
+  color: #527a8a;
+}
+
+.footer a {
+  color: #292448;
+  text-decoration: none;
+}
+
+/* Small width */
+@media (max-width: 952px) {
+  .main > .content {
+    height: 450px;
+  }
+  .main > .content > .textbox {
+    padding-top: 35px;
+  }
+  .textbox, .content {
+    width: 80%!important;
+  }
+
+  .main .content .textbox {
+    top: 70px;
+    z-index: 2;
+  }
+
+  .main .content .textbox .stores {
+    text-align: center;
+  }
+
+  .main-top {
+    height: 600px;
+  }
+
+  .phone {
+    left: 50%;
+    margin-left: -141px;
+    top: 155px;
+    height: 295px;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .stores {
+    position: absolute;
+    z-index: 5;
+    top: 425px;
+    width: 280px;
+    left: 50%;
+    margin-left: -140px;
+  }
+  .stores p {
+    max-width: 45%;
+  }
+  .stores p img {
+    background-color: #0a5fe8;
+  }
+}
