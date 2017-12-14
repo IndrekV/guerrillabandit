@@ -178,6 +178,10 @@ span.main-title {
   font-family: RobotoThin;
 }
 
+.circlebox .screenshot{
+  background: url(images/circlebox.png)
+}
+
 .annoy .screenshot {
   background: url(images/annoy.png)
 }
